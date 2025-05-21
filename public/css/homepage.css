@@ -1,5 +1,42 @@
+@font-face {
+  font-family: 'Bali Bliss';
+  src:url('../../fonts/Bali Bliss.ttf')   format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 h1{
-    color: rgb(41, 125, 97);
+    color: rgb(0, 0, 0);
     margin: auto;
-    padding: 20px
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 100px;
+    font-family: 'Bali Bliss', serif;
+}
+
+h2{
+    color: white;
+    margin: -30px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    font-family: 'Bali Bliss', sans-serif;
+}
+
+body{
+    background-color: rgb(10, 56, 41);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+text{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Bali Bliss', sans-serif;
 }
