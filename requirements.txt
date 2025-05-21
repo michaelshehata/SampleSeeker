@@ -1,0 +1,9 @@
+// This file contains the list of Python packages required for the project.
+
+Requirements: 
+
+librosa
+numpy
+pandas
+scikit-learn
+mutagen
