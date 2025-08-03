@@ -1,0 +1,20 @@
+{
+  "name": "sampleseeker",
+  "version": "1.0.0",
+  "description": "Easy sample finder.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node database_setup.js",
+    "dev": "nodemon database_setup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.53.0",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
