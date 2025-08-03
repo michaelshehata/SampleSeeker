@@ -8,4 +8,4 @@ To be implemented:
 - Login (with library and history and a profile section)
 - Favourites
 - Settings (dark mode)
-- 
+- Sample of the day section
