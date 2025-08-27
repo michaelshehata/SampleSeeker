@@ -1,19 +1,26 @@
 @font-face {
-  font-family: 'Bali Bliss';
-  src:url('../../fonts/Bali Bliss.ttf')   format('truetype');
+  font-family: 'quincy';
+  src:url('../../fonts/quincy.ttf')   format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
 h1{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: auto;
     padding: 20px;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 100px;
-    font-family: 'Bali Bliss', serif;
+    font-family: 'quincy', serif;
 }
 
 h2{
@@ -23,20 +30,28 @@ h2{
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 30px;
-    font-family: 'Bali Bliss', sans-serif;
+    font-family: 'quincy', sans-serif;
 }
 
-body{
-    background-color: rgb(10, 56, 41);
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
-}
-
-text{
+.upload-text{
     color: white;
     font-size: 20px;
+    padding: 20px;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: 'Bali Bliss', sans-serif;
+    font-family: 'quincy', sans-serif;
+}
+
+input{
+    display: none;
+}
+label{
+    height:  100px;
+    width: 150px;
+    border-radius: 60px;
+    border: 1px dashed #999;
+}
+label:hover {
+  Color: #de0611;
+  Border: 1px dashed #de0611;
 }

@@ -5,7 +5,7 @@ This program allows a user to upload a song and find similar samples to it. BPM,
 
 
 To be implemented:
-- Login (with library and history and a profile section)
+- Login and log out
 - Favourites
 - Settings (dark mode)
 - Sample of the day section
