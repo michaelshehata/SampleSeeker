@@ -50,6 +50,7 @@ label{
     width: 150px;
     border-radius: 60px;
     border: 1px dashed #999;
+    margin-top: -12px;
 }
 label:hover {
   Color: #de0611;
